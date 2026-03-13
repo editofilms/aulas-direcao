@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aulas de Direção em São Paulo | Edito Films</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
 <style>
 :root{
 --cor-principal:#043259;
@@ -20,15 +22,17 @@ color:white;
 }
 
 header{
-background:linear-gradient(135deg,var(--cor-secundaria),var(--cor-destaque));
-color:white;
+background:var(--cor-secundaria);
+color:var(--cor-destaque);
 text-align:center;
 padding:70px 20px;
 }
 
 header h1{
-font-size:38px;
+font-family:'Bebas Neue', sans-serif;
+font-size:56px;
 margin:0;
+letter-spacing:2px;
 }
 
 header p{
@@ -52,9 +56,12 @@ box-shadow:0 8px 25px rgba(0,0,0,0.2);
 }
 
 h2{
+font-family:'Bebas Neue', sans-serif;
 text-align:center;
 margin-top:0;
 color:var(--cor-principal);
+font-size:34px;
+letter-spacing:1px;
 }
 
 ul{
@@ -134,20 +141,29 @@ color:#ddd;
 
 .whatsapp-float{
 position:fixed;
-width:65px;
-height:65px;
+width:70px;
+height:70px;
 bottom:25px;
 right:25px;
 background:#25D366;
 border-radius:50px;
 text-align:center;
-box-shadow:2px 2px 12px rgba(0,0,0,0.3);
+box-shadow:2px 2px 15px rgba(0,0,0,0.4);
 z-index:100;
+animation:quicar 1.2s infinite;
 }
 
 .whatsapp-float img{
-width:38px;
-margin-top:13px;
+width:40px;
+margin-top:15px;
+}
+
+@keyframes quicar{
+0%{transform:translateY(0);} 
+30%{transform:translateY(-12px);} 
+50%{transform:translateY(0);} 
+70%{transform:translateY(-6px);} 
+100%{transform:translateY(0);} 
 }
 
 </style>
@@ -156,9 +172,9 @@ margin-top:13px;
 <body>
 
 <header>
-<h1>Passe na Prova de Direção com Confiança</h1>
+<h1>PASSE NA PROVA DE DIREÇÃO</h1>
 <p>Aulas práticas personalizadas com instrutor credenciado em São Paulo</p>
-<a class="btn" href="https://wa.me/5511920125637">Agendar Aula no WhatsApp</a>
+<a class="btn" href="https://wa.me/5511920125637">AGENDAR AULA</a>
 </header>
 
 <div class="container">
@@ -169,7 +185,7 @@ margin-top:13px;
 Treinamento prático focado em ajudar você a dirigir com segurança e passar no exame de direção. As aulas são individuais e adaptadas ao nível de cada aluno.
 </p>
 <div style="text-align:center">
-<a class="btn" href="https://wa.me/5511920125637">Falar com Instrutor</a>
+<a class="btn" href="https://wa.me/5511920125637">FALAR COM INSTRUTOR</a>
 </div>
 </div>
 
@@ -183,7 +199,7 @@ Treinamento prático focado em ajudar você a dirigir com segurança e passar no
 <li>Dicas para evitar reprovação</li>
 </ul>
 <div style="text-align:center">
-<a class="btn" href="https://wa.me/5511920125637">Quero Aprender</a>
+<a class="btn" href="https://wa.me/5511920125637">QUERO APRENDER</a>
 </div>
 </div>
 
@@ -193,7 +209,7 @@ Treinamento prático focado em ajudar você a dirigir com segurança e passar no
 <div class="testimonial">"Instrutor muito paciente e explica tudo com calma."</div>
 <div class="testimonial">"As simulações da prova ajudaram muito na confiança."</div>
 <div style="text-align:center">
-<a class="btn" href="https://wa.me/5511920125637">Agendar Minha Aula</a>
+<a class="btn" href="https://wa.me/5511920125637">AGENDAR MINHA AULA</a>
 </div>
 </div>
 
@@ -211,7 +227,7 @@ Treinamento prático focado em ajudar você a dirigir com segurança e passar no
 <div class="counter">⚠ Apenas 10 vagas disponíveis esta semana</div>
 
 <div style="text-align:center">
-<a class="btn" href="https://wa.me/5511920125637">Reservar Minha Vaga</a>
+<a class="btn" href="https://wa.me/5511920125637">RESERVAR MINHA VAGA</a>
 </div>
 </div>
 
@@ -221,17 +237,7 @@ Treinamento prático focado em ajudar você a dirigir com segurança e passar no
 <iframe src="https://maps.google.com/maps?q=sao%20paulo&t=&z=11&ie=UTF8&iwloc=&output=embed"></iframe>
 </div>
 <div style="text-align:center">
-<a class="btn" href="https://wa.me/5511920125637">Ver Disponibilidade</a>
-</div>
-</div>
-
-<div class="section">
-<h2>Solicitar informações</h2>
-<div class="form">
-<input type="text" placeholder="Seu nome">
-<input type="tel" placeholder="Seu WhatsApp">
-<textarea placeholder="Mensagem"></textarea>
-<button onclick="window.location.href='https://wa.me/5511920125637'">Enviar</button>
+<a class="btn" href="https://wa.me/5511920125637">VER DISPONIBILIDADE</a>
 </div>
 </div>
 
